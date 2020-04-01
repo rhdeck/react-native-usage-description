@@ -91,6 +91,7 @@ const commands = a.map(({ key, text }) => {
     .toLowerCase()
     .split(" ")
     .filter(w => w !== "usage")
+    .map(w => (w.endsWith("usage") ? w.substr(0, w.length - 5) : w))
     .join("-");
   const name = "set-" + keyName + " [descriptionText]";
   const description =

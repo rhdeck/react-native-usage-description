@@ -20,6 +20,7 @@
     "react-native": "^0.62.0"
   },
   "dependencies": {
+    "glob": "^7.1.6",
     "plist": "^3.0.1"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "react-native-usage-description",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Manager for usage descriptions in IOS-deployed React Native apps",
   "main": "index.js",
   "scripts": {
